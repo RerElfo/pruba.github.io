@@ -1,0 +1,245 @@
+header{
+
+    height: 100vh;
+
+    font-family: 'Aboreto', cursive;
+    background-color: rgb(233, 227, 227);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/fondo1.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.subeader{
+    display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.logo{
+
+    height: 25vh;
+    margin-right: 10px;
+}
+@media (max-width: 600px) {
+
+
+  }
+
+
+
+.menu{
+    max-width: 1300px;
+    display: flex;
+    margin: auto;
+
+
+}
+ 
+.CajaMenu{
+    width: 170px;
+    height: 80px;
+    background-color: rgb(111, 101, 88);
+    margin: auto;
+    border-radius: 3px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ font-family: 'Josefin Slab', serif;
+
+    cursor: pointer;
+
+}
+.CajaMenu h2{
+    width: 100%;
+    color: white;
+
+}
+
+
+
+#CM1{
+    background-image: url(img/imgPsi.webp);
+    background-size: 100%;
+}
+#CM2{
+    background-image: url(img/imgTer.webp);
+    background-size: 100%;
+}
+#CM3{
+    background-image: url(img/imgCon.webp);
+    background-size: 100%;
+}
+#CM4{
+    background-image: url(img/imgCita.png);
+    background-size: 100%;
+}
+.contenido{
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+
+    
+}
+.contenido h1,h2,h3{
+    color:rgb(22, 65, 46);
+    
+}
+
+
+.imgcont{
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+}
+.fd1{
+    width: 100%;
+
+
+}
+.conFlash{
+    width: 130px;
+    height: 130px;
+   
+    position:fixed;  
+    margin-right: 10px;
+    right: 0; 
+    bottom: 2vh;
+}
+
+.conjuntoParaEspeci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.list{
+   margin: auto;
+   background-color: rgba(22, 65, 46, 0.289);
+   color:   white;
+   font-family: 'Aboreto', cursive;
+   border-radius: 7px;
+   width: 500px;
+   margin-top: 10px;
+
+   
+}
+.trp{
+    border-radius: 20px;
+    -webkit-box-shadow: 3px -1px 14px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px -1px 14px -1px rgba(0,0,0,0.75);
+box-shadow: 3px -1px 14px -1px rgba(0,0,0,0.75);
+}
+
+ul{
+    list-style: none;
+}
+
+#secCont3{
+
+    background-size: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: rgba(22, 65, 46, 0.289);
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 35px;
+
+
+}
+.logo2{
+    margin: auto;
+
+}
+
+
+footer{
+    height: 1000px;
+    width: 100%;
+
+
+}
+.titPrin h1{
+color: white;
+font-size: 50px;
+
+}
+.titPrin h2{
+    color: white;
+    font-size: 30px;
+    
+    }
+.contenido2{
+    
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(129, 0, 0);
+}
+
+.contenido2 h2{
+    font-size: 60px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.contenido2 h3{
+    font-size: 40px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+
+.AnaBdiv{
+    display: flex;
+
+}
+.redes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.red{
+    cursor: pointer;
+    margin: 10PX;
+}
+.cita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.margenCita{
+    max-width: 1500px;
+    -webkit-box-shadow: 1px 6px 22px 0px rgba(22,65,46,1);
+    -moz-box-shadow: 1px 6px 22px 0px rgba(22,65,46,1);
+    box-shadow: 1px 6px 22px 0px rgba(22,65,46,1);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
